@@ -1,0 +1,851 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+
+/*html,body*/
+
+html,body {
+    height: 100%;
+}
+
+/*main-banner*/
+
+main.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(28, 6, 150, 0.7),rgba(18, 8, 160, 0.7),rgba(15, 6, 133, 0.7)), url(imagem/banner.pnng.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+   max-width: 1400px;
+}
+
+header.menu {
+    padding: 30px 2%;
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+
+.wraper-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-menu h3 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.logo-menu h3 span {
+    color: rgb(0, 58, 247);
+}
+
+.logo-menu  i {
+    font-size: 20px;
+}
+
+nav.menu-desktop ul {
+    display: flex;
+
+}
+
+nav.menu-desktop ul li {
+    list-style-type: none;
+}
+
+nav.menu-desktop ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 20px;
+}
+
+nav.menu-desktop ul li a:hover {
+    color: rgb(0, 58, 247);
+}
+
+nav.menu-mobile {
+    display: none;
+    margin-top: 20px;
+}
+
+nav.menu-mobile ul {
+    display: flex;
+
+}
+
+nav.menu-mobile ul li {
+    list-style-type: none;
+}
+
+nav.menu-mobile ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0 20px;
+}
+
+nav.menu-mobile ul li a:hover {
+    color: rgb(0, 58, 247);
+}
+
+
+
+.button-mobile {
+    display: none;
+}
+
+button.btn-1 {
+   padding: 10px 30px;
+   background-color:rgb(0, 58, 247);
+   border: none;
+   border-radius: 20px;
+   margin-top: 20px;
+   opacity: 1;
+   transition: 1s;
+   cursor: pointer;
+}
+
+button.btn-1:hover {
+    opacity: 0.7;
+
+}
+
+button.btn-1 span a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.descrition-principal {
+    padding-top: 5%;
+    text-align: center;
+}
+
+
+
+.descrition-principal h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.borde-desk {
+    width: 50%;
+    height: 3px;
+    margin: 3px auto;
+    background-color: #fff;
+    
+}
+
+.descrition-principal h2 span {
+    color: rgb(0, 58, 247);
+}
+
+.descrition-principal p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 10px auto;
+    font-weight: normal;
+    margin-top: 20px;
+    max-width: 700px;
+}
+
+button.btn-2 {
+    width: 20%;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.747);
+    transition: 1s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button.btn-2:hover {
+    background-color: rgb(0, 58, 247);
+}
+
+button.btn-2 span a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*section-servicos*/
+
+section.servicos {
+    padding: 115px 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.text-servicos {
+    text-align: center;
+}
+
+.text-servicos h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.text-servicos h2 span {
+    color: rgb(0, 58, 247);
+}
+
+.wraper-servicos {
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.card-1 img {
+    border:8px solid #000;
+    width: 100%;
+}
+
+button.btn-3 {
+    width: 98%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgba(0, 58, 247, 0.767);
+    transition: 1s;
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button.btn-3:hover {
+    opacity: 0.7;
+}
+
+button.btn-3 span a {
+    color: #fff;
+}
+
+.card-2 img {
+    width: 100%;
+    border:8px solid #000;
+}
+
+button.btn-4 {
+    width: 98%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgba(0, 58, 247, 0.767);
+    transition: 1s;
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button.btn-4:hover {
+    opacity: 0.7;
+}
+
+button.btn-4 span a {
+    color: #fff;
+}
+
+.card-3 img {
+    width: 100%;
+    border:8px solid #000;
+}
+
+button.btn-5 {
+    width: 98%;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    background-color:rgba(0, 58, 247, 0.767);
+    transition: 1s;
+    opacity: 1;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button.btn-5:hover {
+    opacity: 0.7;
+}
+
+button.btn-5 span a {
+    color: #fff;
+}
+
+/*section-contato*/
+
+section.contato {
+    padding: 119px 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.text-contato {
+    text-align: center;
+}
+
+.text-contato h2 {
+    color: #fff;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-contato h2 span {
+    color: rgb(0, 58, 247);
+}
+
+.text-contato p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.wraper-contato {
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.info-1 {
+    border: 4px solid #000;
+    text-align: center;
+}
+
+.info-1 i {
+    color: rgb(0, 58, 247);
+    font-size: 25px;
+
+}
+
+.info-1 p {
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid rgb(0, 58, 247);
+    font-weight: normal;
+    margin-top: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.info-1 p:hover {
+    background-color: rgb(0, 58, 247); 
+}
+
+.info-2 {
+    text-align: center;
+}
+
+.info-2 i {
+    color: rgb(0, 58, 247);
+    font-size: 25px;
+
+}
+
+.info-2 p {
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid rgb(0, 58, 247);
+    font-weight: normal;
+    margin-top: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.info-2 p:hover {
+    background-color: rgb(0, 58, 247);
+}
+
+/*footer-rodape*/
+
+footer.rodape {
+    padding: 30px 2%;
+    border-top: 1px solid rgb(0, 58, 247);
+    background-color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.wraper-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-footer {
+    display: flex;
+    
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer p {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 12px;
+    font-weight: normal;
+}
+
+.text-footer img {
+    width: 20px;
+}
+
+/*sobre-html*/
+
+section.sobre-nos {
+  padding: 90px 2%;
+  background-color: #000;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.text-sobre-nos {
+    text-align: center;
+}
+
+.text-sobre-nos h2 {
+    color: #fff;
+}
+
+.text-sobre-nos h2 span {
+    color: rgb(0, 58, 247);
+}
+
+
+.text-info p {
+     color:#fff;
+     font-size: 15px;
+     margin: 0 auto;
+     text-align: center;
+     max-width: 920px;
+     margin-top: 30px;
+     line-height: 30px;
+ }
+
+ /*trabalho-html*/
+
+ section.trabalhos {
+    padding: 93px 2%;
+    background-color: #000;
+ }
+
+ .container {
+    width: 100%;
+    max-width: 1400px;
+ }
+
+ .text-trabalho {
+    text-align: center;
+ }
+
+ .text-trabalho h2 {
+    color: #fff;
+ }
+
+ .wraper-trabalhos {
+    display: flex;
+    padding-top: 5%;
+    justify-content: center;
+ }
+
+ .text-trabalho h2 span {
+    color: rgb(0, 58, 247);
+ }
+
+ .trab-1 {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 58, 247);
+ }
+
+ .trab-1 img {
+    margin-top: 20px;
+    width: 40px;
+ }
+
+ .trab-1 p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-weight: normal;
+ }
+
+ .trab-2 {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 58, 247);
+ }
+
+ .trab-2 img {
+    margin-top: 20px;
+    width: 40px;
+ }
+
+ .trab-2 p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-weight: normal;
+ }
+
+
+ .trab-3 {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid rgb(0, 58, 247);
+ }
+
+ .trab-3 img {
+    margin-top: 20px;
+    width: 40px;
+ }
+
+ .trab-3 p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-weight: normal;
+ }
+
+ /*contato.html*/
+
+ section.contato-2 {
+    padding: 164px 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}
+
+.text-contato-2 {
+    text-align: center;
+}
+
+.text-contato-2 h2 {
+    color: #fff;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-contato-2 h2 span {
+    color: rgb(0, 58, 247);
+}
+
+.text-contato-2 p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: normal;
+    margin: 0 auto;
+    max-width: 500px;
+    margin-top: 10px;
+}
+
+.wraper-contato-2 {
+    display: flex;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.info-2 {
+    border: 4px solid #000;
+    text-align: center;
+}
+
+.info-2 i {
+    color: rgb(0, 58, 247);
+    font-size: 25px;
+
+}
+
+.info-2 p {
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid rgb(0, 58, 247);
+    font-weight: normal;
+    margin-top: 8px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.info-2 p:hover {
+    background-color: rgb(0, 58, 247); 
+}
+
+.info-3 {
+    text-align: center;
+}
+
+.info-3 i {
+    color: rgb(0, 58, 247);
+    font-size: 25px;
+
+}
+
+.info-3 p {
+    color: #fff;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid rgb(0, 58, 247);
+    font-weight: normal;
+    margin-top: 12px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.info-3 p:hover {
+    background-color: rgb(0, 58, 247);
+}
+
+
+/*responsivo*/
+
+@media screen and (max-width:768px ) {
+
+    main.banner {
+        background-position: left;
+      
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .wraper-menu {
+        text-align: center;
+        display: block;
+       
+    }
+
+    nav.menu-desktop {
+        display: none;
+    }
+
+    .button-mobile {
+        display: block;
+    }
+
+    button.btn-2 {
+        width: 50%;
+        padding: 10px 30px;
+        margin-top: 40px;
+        
+    }
+
+    .descrition-principal {
+        padding-top: 18%;
+        text-align: center;
+    }
+
+   .descrition-principal p {
+
+        margin: 10px auto;
+        font-weight: normal;
+        margin-top: 20px;
+        font-size: 14;
+        line-height: 26px;
+        max-width: 500px;
+    }
+
+    .descrition-principal h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .wraper-servicos {
+        display: block;
+        
+    }
+
+    .card-2 {
+        margin-top: 20px;
+    }
+
+    .card-3 {
+        margin-top: 20px;
+    }
+
+    .wraper-contato {
+        display:block;
+        
+    }
+
+    .info-2 {
+        margin-top: 10px;
+    }
+
+    .wraper-contato-2 {
+        display:block;
+        
+    }
+
+    .info-3 {
+        margin-top: 10px;
+    }
+
+    .info-2 {
+        margin-top: 10px;
+    }
+
+
+    .wraper-rodape {
+        display: block;
+       
+    }
+
+    .text-footer {
+        display: block;
+        text-align: center;
+        
+        
+    }
+    
+    .text-footer p {
+        color: #fff;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 12px;
+        font-weight: normal;
+    }
+
+    .wraper-trabalhos {
+        display: block;
+      
+    }
+
+    .trab-1 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+
+    .trab-2 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+
+    .trab-3 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+
+   nav.menu-mobile {
+    display: block;
+
+    
+    
+   }
+
+   nav.menu-mobile ul {
+    display: block;
+   }
+
+   nav.menu-mobile ul li a {
+     line-height: 30px;
+     text-align: center;
+   }
+
+   section.servicos {
+    padding: 120px 2%;
+   
+}
+    
+
+
+
+
+    
+}
+
+@media screen and (max-width:830px ) {
+    
+    .wraper-servicos {
+        display: block;
+        
+    }
+
+   
+
+  
+}
+
+
+@media screen and (max-width:1024px ) {
+
+    .wraper-trabalhos {
+        display: block;
+      
+    }
+
+    .trab-1 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+
+    .trab-2 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+
+    .trab-3 {
+        width: 60%;
+        margin: 0 auto;
+        
+   }
+    
+}
