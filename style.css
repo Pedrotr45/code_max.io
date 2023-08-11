@@ -689,12 +689,12 @@ section.sobre-nos {
 
    .descrition-principal p {
 
-        margin: 10px auto;
+        margin: 8px auto;
         font-weight: normal;
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 14;
         line-height: 26px;
-        max-width: 500px;
+        max-width: 480px;
     }
 
     .descrition-principal h2 {
