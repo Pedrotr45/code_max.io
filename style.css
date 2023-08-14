@@ -703,6 +703,11 @@ section.sobre-nos {
         font-weight: bold;
     }
 
+    .text-info p {
+      max-width: 400px;
+    
+ }
+
     .wraper-servicos {
         display: block;
         
