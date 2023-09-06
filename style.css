@@ -267,13 +267,13 @@ button.btn-4 span a {
 
 .card-3 img {
     width: 100%;
-    border:11px solid #000;
+    border:9px solid #000;
 }
 
 button.btn-5 {
     width: 98%;
     padding: 15px 30px;
-    margin-top: 19px;
+    margin-top: 21px;
     border: none;
     background-color:rgba(0, 58, 247, 0.767);
     transition: 1s;
